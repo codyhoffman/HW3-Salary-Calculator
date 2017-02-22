@@ -8,3 +8,49 @@ and open the template in the editor.
     Author     : codyhoffman
 */
 
+body {
+    background-color: #13BBFF;
+    width: 60%;
+    padding: 10px;
+    margin-left: 35%;
+    font-family: Candara, sans-serif;
+    font-weight: lighter;
+}
+
+
+table {
+    margin-left: 12%;
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin-left: 1%;
+    border-bottom: 2px solid white;
+    width: 60%;
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#output {
+    width: 25%;
+    margin-left: 18%;
+    background: white;
+    border: none;
+    color: black;
+}
+
+.submission
+{
+    width: 9%;
+    margin-left: 14%;
+}
+
+.val {
+    text-align: center;
+} 
+.label{
+    text-align: right;
+    outline: 1px solid black;
+}
