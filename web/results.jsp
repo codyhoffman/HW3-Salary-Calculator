@@ -59,47 +59,47 @@
         <table id = "output">
             <tbody>
                 <tr>
-                    <th class="label"> Total Hours Worked: </th>   
-                    <td class="val">$<%= hoursWorked %>  </td>
+                    <td class="label"> Total Hours Worked: </td>   
+                    <td class="val"> <%= hoursWorked %>  </td>
                 </tr>
                 <tr>
-                    <th class="label"> Hourly Rate: </th>   
+                    <td class="label"> Hourly Rate: </td>   
                     <td class="val"> $<%= hourlyPay %>  </td>
                 </tr>
                 <tr>
-                    <th class="label"> # Hours Overtime:  </th>   
+                    <td class="label"> # Hours Overtime:  </td>   
                     <td class="val"> <%= overtime %> </td>
                 </tr>
                 <tr>
-                    <th class="label"> Overtime Pay: </th>   
+                    <td class="label"> Overtime Pay: </td>   
                     <td class="val"> $<%= overtimePay %>  </td>
                 </tr>
                 <tr>
-                    <th class="label"> Gross Pay: </th>   
+                    <td class="label"> Gross Pay: </td>   
                     <td class="val"> $<%= grossPay %> </td>
                 </tr>
                 <tr>
-                    <th class="label"> Pre-tax Deductions: </th>   
+                    <td class="label"> Pre-tax Deductions: </td>   
                     <td class="val"> $<%= preTaxDeduct %> </td>
                 </tr>
                 <tr>
-                    <th class="label"> Pre-tax Pay: </th>   
+                    <td class="label"> Pre-tax Pay: </td>   
                     <td class="val"> $<%= taxablePay %> </td>
                 </tr>
                 <tr>
-                    <th class="label"> Tax Amount: </th>   
+                    <td class="label"> Tax Amount: </td>   
                     <td class="val"> $<%= taxAmount %> </td>
                 </tr>
                 <tr>
-                    <th class="label"> Post-tax Pay: </th>   
+                    <td class="label"> Post-tax Pay: </td>   
                     <td class="val"> $<%= postTaxPay %> </td>
                 </tr>
                 <tr>
-                    <th class="label"> Post-tax Deductions: </th>   
+                    <td class="label"> Post-tax Deductions: </td>   
                     <td class="val"> $<%= postTaxDeduct %>  </td>
                 </tr>
                 <tr>
-                    <th class="label"> Net Pay: </th>   
+                    <td class="label"> Net Pay: </td>   
                     <td class="val"> $<%= netPay %> </td>
                 </tr>
             </tbody>
